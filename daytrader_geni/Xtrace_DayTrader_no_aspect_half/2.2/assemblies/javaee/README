@@ -1,0 +1,9 @@
+(C) Copyright 2006-2009 The Apache Software Foundation.
+----------------------------------------------------------------------
+
+daytrader-ear - EAR assembly that can be deployed in JavaEE 5 or later
+	application servers.
+
+Deployment plans for use with Apache Geronimo 2.1/2.2 are located in the plans
+subdirectory.
+

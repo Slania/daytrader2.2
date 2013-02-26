@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/streamer/src/test/org/apache/geronimo/samples/daytrader
+END
+AbstractTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/streamer/src/test/org/apache/geronimo/samples/daytrader/AbstractTestCase.java
+END
+NaughtyTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/streamer/src/test/org/apache/geronimo/samples/daytrader/NaughtyTest.java
+END
+AppTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/streamer/src/test/org/apache/geronimo/samples/daytrader/AppTest.java
+END

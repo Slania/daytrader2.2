@@ -1,0 +1,19 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+DayTrader :: Modules - EJB3
+
+
+From: 'Apache Software Foundation' (http://www.apache.org/)
+  - DayTrader :: Modules - Core (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/daytrader-parent/modules/daytrader-core) org.apache.geronimo.daytrader.modules:daytrader-core:bundle:2.2.2-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - DayTrader :: Modules - Entities (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/daytrader-parent/modules/daytrader-entities) org.apache.geronimo.daytrader.modules:daytrader-entities:bundle:2.2.2-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - DayTrader :: Modules - Util (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/daytrader-parent/modules/daytrader-util) org.apache.geronimo.daytrader.modules:daytrader-util:bundle:2.2.2-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

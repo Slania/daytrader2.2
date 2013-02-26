@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.geronimo.samples.daytrader.beans;uses:="org
+ .apache.geronimo.samples.daytrader.util";version="2.2.1.SNAPSHOT"
+Private-Package: org.apache.geronimo.samples.daytrader.beans,
+Implementation-Title: DayTrader :: Modules - Beans
+Implementation-Version: 2.2.2-SNAPSHOT
+Built-By: ashiwan
+Tool: Bnd-0.0.311
+Bundle-Name: DayTrader :: Modules - Beans
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: Apache Software Foundation
+Build-Jdk: 1.6.0_27
+Bundle-Version: 2.2.2.SNAPSHOT
+Bnd-LastModified: 1321504450371
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Daytrader UnEnhanced Enttities Module
+Import-Package: org.apache.geronimo.samples.daytrader.beans;version="2
+ .2",org.apache.geronimo.samples.daytrader.util;version="2.2"
+Bundle-SymbolicName: org.apache.geronimo.daytrader.modules.daytrader-b
+ eans
+Bundle-DocURL: http://geronimo.apache.org/genesis-default-flava/genesi
+ s-java5-flava/daytrader-parent/modules/daytrader-beans
+

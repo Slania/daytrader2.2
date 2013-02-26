@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/assemblies/javaee/daytrader-war/src/main/webapp/dbscripts/derby
+END
+Table.ddl
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/assemblies/javaee/daytrader-war/src/main/webapp/dbscripts/derby/Table.ddl
+END

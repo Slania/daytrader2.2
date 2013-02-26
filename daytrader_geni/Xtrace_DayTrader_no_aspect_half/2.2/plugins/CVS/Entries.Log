@@ -1,0 +1,14 @@
+A D/.svn////
+A D/daytrader-db2-datasource////
+A D/daytrader-derby-datasource////
+A D/daytrader-informix-datasource////
+A D/daytrader-jetty////
+A D/daytrader-jms////
+A D/daytrader-mysql-datasource////
+A D/daytrader-oracle-datasource////
+A D/daytrader-postgre-datasource////
+A D/daytrader-sqlserver-datasource////
+A D/daytrader-tomcat////
+A D/daytrader-web-jdbc-jetty////
+A D/daytrader-web-jdbc-tomcat////
+A D/daytrader-web-jpa-jetty////

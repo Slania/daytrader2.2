@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/wsappclient/src/main/resources/META-INF
+END
+NOTICE
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/wsappclient/src/main/resources/META-INF/NOTICE
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/wsappclient/src/main/resources/META-INF/LICENSE
+END
+MANIFEST.MF
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/wsappclient/src/main/resources/META-INF/MANIFEST.MF
+END
+TradeServices_mapping.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/wsappclient/src/main/resources/META-INF/TradeServices_mapping.xml
+END
+application-client.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/wsappclient/src/main/resources/META-INF/application-client.xml
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/prims/ejb3
+END
+PingServlet2TwoPhase.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/prims/ejb3/PingServlet2TwoPhase.java
+END
+PingServlet2Entity.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/prims/ejb3/PingServlet2Entity.java
+END
+PingServlet2Session2CMROne2One.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/prims/ejb3/PingServlet2Session2CMROne2One.java
+END
+PingServlet2Session2EntityCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/prims/ejb3/PingServlet2Session2EntityCollection.java
+END
+PingServlet2Session2CMROne2Many.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/prims/ejb3/PingServlet2Session2CMROne2Many.java
+END
+PingServlet2MDBTopic.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/prims/ejb3/PingServlet2MDBTopic.java
+END
+PingServlet2Session2Entity.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/prims/ejb3/PingServlet2Session2Entity.java
+END
+PingServlet2Session.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/prims/ejb3/PingServlet2Session.java
+END
+PingServlet2Session2JDBCCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/prims/ejb3/PingServlet2Session2JDBCCollection.java
+END
+PingServlet2MDBQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/prims/ejb3/PingServlet2MDBQueue.java
+END
+PingServlet2Session2JDBC.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/prims/ejb3/PingServlet2Session2JDBC.java
+END

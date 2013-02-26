@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1038647/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web
+END
+TradeServletAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/asf/!svn/ver/1038647/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/TradeServletAction.java
+END
+TestServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/TestServlet.java
+END
+TradeAppServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/1038647/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/TradeAppServlet.java
+END
+TradeBuildDB.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/TradeBuildDB.java
+END
+TradeDirectContextListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/TradeDirectContextListener.java
+END
+TradeJPAContextListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/TradeJPAContextListener.java
+END
+TradeScenarioServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/TradeScenarioServlet.java
+END
+TradeConfigServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/TradeConfigServlet.java
+END
+OrdersAlertFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/OrdersAlertFilter.java
+END
+TradeJDBCContextListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/web/src/main/java/org/apache/geronimo/samples/daytrader/web/TradeJDBCContextListener.java
+END

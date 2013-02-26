@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/java/org/apache/geronimo/samples/daytrader/ejb3
+END
+TradeSLSBRemote.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/java/org/apache/geronimo/samples/daytrader/ejb3/TradeSLSBRemote.java
+END
+DTStreamer3MDB.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/java/org/apache/geronimo/samples/daytrader/ejb3/DTStreamer3MDB.java
+END
+DTBroker3MDB.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/java/org/apache/geronimo/samples/daytrader/ejb3/DTBroker3MDB.java
+END
+DirectSLSBBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/java/org/apache/geronimo/samples/daytrader/ejb3/DirectSLSBBean.java
+END
+DirectSLSBLocal.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/java/org/apache/geronimo/samples/daytrader/ejb3/DirectSLSBLocal.java
+END
+TradeSLSBBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/java/org/apache/geronimo/samples/daytrader/ejb3/TradeSLSBBean.java
+END
+DirectSLSBRemote.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/java/org/apache/geronimo/samples/daytrader/ejb3/DirectSLSBRemote.java
+END
+TradeSLSBLocal.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/java/org/apache/geronimo/samples/daytrader/ejb3/TradeSLSBLocal.java
+END

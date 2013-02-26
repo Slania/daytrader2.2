@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/assemblies/javaee/daytrader-ear/src/main/resources/META-INF
+END
+NOTICE
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/assemblies/javaee/daytrader-ear/src/main/resources/META-INF/NOTICE
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/assemblies/javaee/daytrader-ear/src/main/resources/META-INF/LICENSE
+END
+persistence.xml.jboss5
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/assemblies/javaee/daytrader-ear/src/main/resources/META-INF/persistence.xml.jboss5
+END

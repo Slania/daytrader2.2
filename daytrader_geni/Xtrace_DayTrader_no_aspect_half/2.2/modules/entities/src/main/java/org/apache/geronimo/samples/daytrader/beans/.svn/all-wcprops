@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1040894/geronimo/daytrader/branches/2.2/modules/entities/src/main/java/org/apache/geronimo/samples/daytrader/beans
+END
+HoldingDataBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/1040894/geronimo/daytrader/branches/2.2/modules/entities/src/main/java/org/apache/geronimo/samples/daytrader/beans/HoldingDataBean.java
+END
+OrderDataBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/asf/!svn/ver/1040894/geronimo/daytrader/branches/2.2/modules/entities/src/main/java/org/apache/geronimo/samples/daytrader/beans/OrderDataBean.java
+END
+AccountDataBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/1040894/geronimo/daytrader/branches/2.2/modules/entities/src/main/java/org/apache/geronimo/samples/daytrader/beans/AccountDataBean.java
+END
+AccountProfileDataBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/entities/src/main/java/org/apache/geronimo/samples/daytrader/beans/AccountProfileDataBean.java
+END
+QuoteDataBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/entities/src/main/java/org/apache/geronimo/samples/daytrader/beans/QuoteDataBean.java
+END

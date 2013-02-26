@@ -1,0 +1,9 @@
+id=org.apache.geronimo.daytrader.plugins/daytrader-tomcat/2.2.2-SNAPSHOT/car
+type=EAR
+created=1321504621527
+owned.0=org.apache.geronimo.daytrader/daytrader-streamer-client/2.2.1-SNAPSHOT/car
+owned.1=org.apache.geronimo.daytrader/daytrader-ws-client/2.2.1-SNAPSHOT/car
+owned.2=org.apache.geronimo.daytrader.plugins/daytrader-tomcat_xtrace.jar/2.2.2-SNAPSHOT/car
+child.0.id=org.apache.geronimo.daytrader.plugins/daytrader-tomcat_web.war/2.2.2-SNAPSHOT/car
+child.0.type=WAR
+child.0.created=1321504620497

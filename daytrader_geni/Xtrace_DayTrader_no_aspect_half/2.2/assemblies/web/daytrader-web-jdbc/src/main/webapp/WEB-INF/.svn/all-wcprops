@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/assemblies/web/daytrader-web-jdbc/src/main/webapp/WEB-INF
+END
+ibm-web-bnd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/assemblies/web/daytrader-web-jdbc/src/main/webapp/WEB-INF/ibm-web-bnd.xml
+END
+geronimo-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/assemblies/web/daytrader-web-jdbc/src/main/webapp/WEB-INF/geronimo-web.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/assemblies/web/daytrader-web-jdbc/src/main/webapp/WEB-INF/web.xml
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/util/src/main/java/org/apache/geronimo/samples/daytrader/util
+END
+Log.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/util/src/main/java/org/apache/geronimo/samples/daytrader/util/Log.java
+END
+MDBStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/util/src/main/java/org/apache/geronimo/samples/daytrader/util/MDBStats.java
+END
+KeyBlock.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/util/src/main/java/org/apache/geronimo/samples/daytrader/util/KeyBlock.java
+END
+TradeConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/util/src/main/java/org/apache/geronimo/samples/daytrader/util/TradeConfig.java
+END
+TimerStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/util/src/main/java/org/apache/geronimo/samples/daytrader/util/TimerStat.java
+END

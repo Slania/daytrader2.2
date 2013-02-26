@@ -1,0 +1,25 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+DayTrader :: Assemblies - Web + Direct JPA
+
+
+From: 'Apache Software Foundation' (http://www.apache.org/)
+  - DayTrader :: Modules - Core (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/daytrader-parent/modules/daytrader-core) org.apache.geronimo.daytrader.modules:daytrader-core:bundle:2.2.2-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - DayTrader :: Modules - Entities (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/daytrader-parent/modules/daytrader-entities) org.apache.geronimo.daytrader.modules:daytrader-entities:bundle:2.2.2-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - DayTrader :: Modules - Util (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/daytrader-parent/modules/daytrader-util) org.apache.geronimo.daytrader.modules:daytrader-util:bundle:2.2.2-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - DayTrader :: Modules - Web (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/daytrader-parent/modules/daytrader-web) org.apache.geronimo.daytrader.modules:daytrader-web:jar:2.2.2-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://jakarta.apache.org)
+  - Logging (http://jakarta.apache.org/commons/logging/) commons-logging:commons-logging:jar:1.0.4
+    License: The Apache Software License, Version 2.0  (/LICENSE.txt)
+
+
+
+

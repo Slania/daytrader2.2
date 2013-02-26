@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/json-proxy/src/main/webapp/WEB-INF
+END
+geronimo-web.xml.org
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/json-proxy/src/main/webapp/WEB-INF/geronimo-web.xml.org
+END
+TradeServicesClient_mapping.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/json-proxy/src/main/webapp/WEB-INF/TradeServicesClient_mapping.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/json-proxy/src/main/webapp/WEB-INF/web.xml
+END

@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.geronimo.samples.daytrader.beans;uses:="org
+ .apache.openjpa.util,org.apache.openjpa.enhance,javax.persistence,org
+ .apache.geronimo.samples.daytrader.util";version="2.2.1.SNAPSHOT"
+Private-Package: org.apache.geronimo.samples.daytrader.beans,
+Implementation-Title: DayTrader :: Modules - Entities
+Implementation-Version: 2.2.2-SNAPSHOT
+Built-By: ashiwan
+Tool: Bnd-0.0.311
+Bundle-Name: DayTrader :: Modules - Entities
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: Apache Software Foundation
+Build-Jdk: 1.6.0_27
+Bundle-Version: 2.2.2.SNAPSHOT
+Bnd-LastModified: 1321504459544
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Daytrader JPA Enhanced Enttities Module
+Import-Package: javax.persistence;version="1.0",org.apache.geronimo.sa
+ mples.daytrader.beans;version="2.2",org.apache.geronimo.samples.daytr
+ ader.util;version="2.2",org.apache.openjpa.enhance,org.apache.openjpa
+ .util
+Bundle-SymbolicName: org.apache.geronimo.daytrader.modules.daytrader-e
+ ntities
+Bundle-DocURL: http://geronimo.apache.org/genesis-default-flava/genesi
+ s-java5-flava/daytrader-parent/modules/daytrader-entities
+

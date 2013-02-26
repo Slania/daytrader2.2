@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/resources/META-INF
+END
+jboss.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/resources/META-INF/jboss.xml
+END
+NOTICE
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/resources/META-INF/NOTICE
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/resources/META-INF/LICENSE
+END
+persistence.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/resources/META-INF/persistence.xml
+END
+ejb-jar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/resources/META-INF/ejb-jar.xml
+END
+jboss.xml.old
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/resources/META-INF/jboss.xml.old
+END
+jbosscmp-jdbc.xml.old
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/ejb3/src/main/resources/META-INF/jbosscmp-jdbc.xml.old
+END

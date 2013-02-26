@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.geronimo.samples.daytrader.core;uses:="org.
+ apache.geronimo.samples.daytrader.beans,org.apache.geronimo.samples.d
+ aytrader.util,javax.naming,org.apache.geronimo.samples.daytrader.core
+ .direct";version="2.2.1.SNAPSHOT",org.apache.geronimo.samples.daytrad
+ er.core.direct;uses:="org.apache.geronimo.samples.daytrader.util,java
+ x.naming,org.apache.geronimo.samples.daytrader.core,javax.sql,org.apa
+ che.geronimo.samples.daytrader.beans,javax.ejb,javax.jms,javax.transa
+ ction,javax.persistence";version="2.2.1.SNAPSHOT"
+Private-Package: org.apache.geronimo.samples.daytrader.core,org.apache
+ .geronimo.samples.daytrader.core.direct,
+Implementation-Title: DayTrader :: Modules - Core
+Implementation-Version: 2.2.2-SNAPSHOT
+Built-By: ashiwan
+Tool: Bnd-0.0.311
+Bundle-Name: DayTrader :: Modules - Core
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: Apache Software Foundation
+Build-Jdk: 1.6.0_27
+Bundle-Version: 2.2.2.SNAPSHOT
+Bnd-LastModified: 1321504463046
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Daytrader Core Module
+Import-Package: javax.ejb;version="3.0",javax.jms;version="1.1",javax.
+ naming,javax.persistence;version="1.0",javax.sql,javax.transaction;ve
+ rsion="1.1",org.apache.geronimo.samples.daytrader.beans;version="2.2"
+ ,org.apache.geronimo.samples.daytrader.core;version="2.2",org.apache.
+ geronimo.samples.daytrader.core.direct;version="2.2",org.apache.geron
+ imo.samples.daytrader.util;version="2.2"
+Bundle-SymbolicName: org.apache.geronimo.daytrader.modules.daytrader-c
+ ore
+Bundle-DocURL: http://geronimo.apache.org/genesis-default-flava/genesi
+ s-java5-flava/daytrader-parent/modules/daytrader-core
+

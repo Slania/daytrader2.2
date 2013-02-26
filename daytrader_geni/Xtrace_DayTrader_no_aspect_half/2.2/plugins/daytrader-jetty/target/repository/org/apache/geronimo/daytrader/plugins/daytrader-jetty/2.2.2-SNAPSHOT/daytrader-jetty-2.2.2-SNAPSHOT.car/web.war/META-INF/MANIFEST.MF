@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ashiwan
+Build-Jdk: 1.6.0_27
+Class-Path: util.jar core.jar entities.jar dt-ejb.jar soap.jar web.jar
+  streamer.jar wsappclient.jar
+

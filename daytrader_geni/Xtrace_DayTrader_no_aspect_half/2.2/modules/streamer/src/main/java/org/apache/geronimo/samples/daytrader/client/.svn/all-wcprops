@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/streamer/src/main/java/org/apache/geronimo/samples/daytrader/client
+END
+TradeClientGUIProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/streamer/src/main/java/org/apache/geronimo/samples/daytrader/client/TradeClientGUIProperties.java
+END
+TradeStreamerQuoteDataBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/streamer/src/main/java/org/apache/geronimo/samples/daytrader/client/TradeStreamerQuoteDataBean.java
+END
+TradeClientGUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/streamer/src/main/java/org/apache/geronimo/samples/daytrader/client/TradeClientGUI.java
+END
+TradeQuoteAuditStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/streamer/src/main/java/org/apache/geronimo/samples/daytrader/client/TradeQuoteAuditStats.java
+END
+ChangeModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/streamer/src/main/java/org/apache/geronimo/samples/daytrader/client/ChangeModel.java
+END
+AuditModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/streamer/src/main/java/org/apache/geronimo/samples/daytrader/client/AuditModel.java
+END
+TradeClientMessageListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/streamer/src/main/java/org/apache/geronimo/samples/daytrader/client/TradeClientMessageListener.java
+END
+TradeQuoteAuditStatsComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/streamer/src/main/java/org/apache/geronimo/samples/daytrader/client/TradeQuoteAuditStatsComparator.java
+END
+ChangeRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/streamer/src/main/java/org/apache/geronimo/samples/daytrader/client/ChangeRenderer.java
+END
+AuditRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/streamer/src/main/java/org/apache/geronimo/samples/daytrader/client/AuditRenderer.java
+END
+TradeClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/streamer/src/main/java/org/apache/geronimo/samples/daytrader/client/TradeClient.java
+END

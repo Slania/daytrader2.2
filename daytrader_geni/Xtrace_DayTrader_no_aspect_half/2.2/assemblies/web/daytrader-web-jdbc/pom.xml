@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <parent>
+        <groupId>org.apache.geronimo.daytrader.assemblies</groupId>
+        <artifactId>web</artifactId>
+        <version>2.2.2-SNAPSHOT</version>
+    </parent>
+    
+    <groupId>org.apache.geronimo.daytrader.assemblies.web</groupId>
+    <artifactId>daytrader-web-jdbc</artifactId>    
+    <packaging>war</packaging>
+    <name>DayTrader :: Assemblies - Web + Direct JDBC</name>
+    <description>A version of Daytrader for basic Web constainers</description>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.geronimo.daytrader.modules</groupId>
+            <artifactId>daytrader-util</artifactId>
+            <version>${version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.daytrader.modules</groupId>
+            <artifactId>daytrader-core</artifactId>
+            <version>${version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.daytrader.modules</groupId>
+            <artifactId>daytrader-beans</artifactId>
+            <version>${version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.daytrader.modules</groupId>
+            <artifactId>daytrader-web</artifactId>
+            <version>${version}</version>
+        </dependency>
+        <dependency>
+            <!-- we need to include this in the image for logging to work -->
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+        </dependency>
+
+        <!-- web container provided specs -->
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-servlet_2.5_spec</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-jsp_2.1_spec</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- test depends -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Not required for Bean version of TradeDirect
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-jta_1.1_spec</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-jms_1.1_spec</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-ejb_3.0_spec</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-annotation_1.0_spec</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-jpa_1.0_spec</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.openjpa</groupId>
+            <artifactId>openjpa</artifactId>
+        </dependency>
+        -->
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <resources>
+                        <resource implementation="org.apache.maven.model.Resource">
+                            <filtering>false</filtering>
+                            <directory>
+                                ${basedir}/src/main/webapp/WEB-INF
+                            </directory>
+                            <includes>
+                                <include>web.xml</include>
+                                <include>geronimo-web.xml</include>
+                            </includes>
+                        </resource>
+                    </resources>
+
+                    <archive>
+                      <!-- add the generated manifest to the war -->
+                      <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
+                    </archive>
+
+                </configuration>
+            </plugin>
+
+            <plugin>
+              <groupId>org.apache.felix</groupId>
+              <artifactId>maven-bundle-plugin</artifactId>
+              <executions>
+                <execution>
+                  <id>bundle-manifest</id>
+                  <phase>process-classes</phase>
+                  <goals>
+                    <goal>manifest</goal>
+                  </goals>
+                </execution>
+              </executions>
+              <configuration>
+                <supportedProjectTypes>
+                  <supportedProjectType>jar</supportedProjectType>
+                  <supportedProjectType>bundle</supportedProjectType>
+                  <supportedProjectType>war</supportedProjectType>
+                </supportedProjectTypes>
+                <instructions>
+                  <Bundle-ClassPath>.,WEB-INF/classes</Bundle-ClassPath>
+                  <Embed-Directory>WEB-INF/lib</Embed-Directory>
+                  <Embed-Dependency>*;scope=compile|runtime</Embed-Dependency>
+                  <Embed-Transitive>true</Embed-Transitive>
+                  <Bundle-SymbolicName>${pom.artifactId}</Bundle-SymbolicName>
+                  <Bundle-Version>${pom.version}</Bundle-Version>
+                  <Web-ContextPath>/daytrader</Web-ContextPath>
+                  <Web-JSPExtractLocation>/</Web-JSPExtractLocation>
+                  <Import-Package>
+                      *
+                  </Import-Package>
+                </instructions>
+                <unpackBundle>true</unpackBundle>
+              </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+</project>

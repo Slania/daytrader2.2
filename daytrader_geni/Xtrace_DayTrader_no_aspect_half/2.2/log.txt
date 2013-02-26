@@ -1,0 +1,1215 @@
+[INFO] Scanning for projects...
+[INFO] Reactor build order: 
+[INFO]   DayTrader :: Performance Benchmark Sample
+[INFO]   DayTrader :: Modules
+[INFO]   DayTrader :: Modules - Util
+[INFO]   DayTrader :: Modules - Beans
+[INFO]   DayTrader :: Modules - Entities
+[INFO]   DayTrader :: Modules - Core
+[INFO]   DayTrader :: Modules - EJB3
+[INFO]   DayTrader :: Modules - WS Application Client
+[INFO]   DayTrader :: Modules - SOAP
+[INFO]   DayTrader :: Modules - Web
+[INFO]   DayTrader :: Modules - Quote Streamer
+[INFO]   DayTrader :: Modules - JSON Proxy
+[INFO]   DayTrader :: Assemblies
+[INFO]   DayTrader :: Assemblies for JavaEE
+[INFO]   DayTrader :: Assemblies - JavaEE WAR
+[INFO]   DayTrader :: Assemblies - JavaEE EAR
+[INFO]   Daytrader plans
+[INFO]   DayTrader :: Assemblies for Web containers
+[INFO]   DayTrader :: Assemblies - Web + Direct JDBC
+[INFO]   DayTrader :: Assemblies - Web + Direct JPA
+[INFO]   DayTrader :: Plugins
+[INFO]   Daytrader :: Plugins :: Derby DataSource
+[INFO]   Daytrader :: Plugins :: Web + Direct JDBC :: Jetty
+[INFO]   Daytrader :: Plugins :: Web + Direct JDBC :: Tomcat
+[INFO]   Daytrader :: Plugins :: Web + JPA :: Jetty
+[INFO]   Daytrader :: Plugins :: Web + Direct JPA :: Tomcat
+[INFO]   Daytrader :: Plugins :: JavaEE JMS Resource
+[INFO]   Daytrader :: Plugins :: JavaEE Jetty
+[INFO]   Daytrader :: Plugins :: JavaEE Tomcat
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Performance Benchmark Sample
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [site:attach-descriptor {execution: default-attach-descriptor}]
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/pom.xml to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/daytrader-parent/2.2.2-SNAPSHOT/daytrader-parent-2.2.2-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Modules
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [site:attach-descriptor {execution: default-attach-descriptor}]
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/pom.xml to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/modules/2.2.2-SNAPSHOT/modules-2.2.2-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Modules - Util
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/util/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 5 source files to /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/util/target/classes
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/util/src/test/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/util/src/test/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] Surefire report directory: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/util/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [bundle:bundle {execution: default-bundle}]
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-util-2.2.2-SNAPSHOT.jar
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/util/target/daytrader-util-2.2.2-SNAPSHOT.jar to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/modules/daytrader-util/2.2.2-SNAPSHOT/daytrader-util-2.2.2-SNAPSHOT.jar
+[INFO] [bundle:install {execution: default-install}]
+[INFO] Parsing file:/home/ashiwan/.m2/repository/repository.xml
+[INFO] Installing org/apache/geronimo/daytrader/modules/daytrader-util/2.2.2-SNAPSHOT/daytrader-util-2.2.2-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Modules - Beans
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/beans/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 5 source files to /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/beans/target/classes
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/beans/src/test/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/beans/src/test/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] Surefire report directory: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/beans/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [bundle:bundle {execution: default-bundle}]
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-beans-2.2.2-SNAPSHOT.jar
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/beans/target/daytrader-beans-2.2.2-SNAPSHOT.jar to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/modules/daytrader-beans/2.2.2-SNAPSHOT/daytrader-beans-2.2.2-SNAPSHOT.jar
+[INFO] [bundle:install {execution: default-install}]
+[INFO] Parsing file:/home/ashiwan/.m2/repository/repository.xml
+[INFO] Installing org/apache/geronimo/daytrader/modules/daytrader-beans/2.2.2-SNAPSHOT/daytrader-beans-2.2.2-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Modules - Entities
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/entities/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 5 source files to /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/entities/target/classes
+[INFO] [antrun:run {execution: default}]
+[INFO] Executing tasks
+[INFO] Executed tasks
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/entities/src/test/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/entities/src/test/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] Surefire report directory: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/entities/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [bundle:bundle {execution: default-bundle}]
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-entities-2.2.2-SNAPSHOT.jar
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/entities/target/daytrader-entities-2.2.2-SNAPSHOT.jar to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/modules/daytrader-entities/2.2.2-SNAPSHOT/daytrader-entities-2.2.2-SNAPSHOT.jar
+[INFO] [bundle:install {execution: default-install}]
+[INFO] Parsing file:/home/ashiwan/.m2/repository/repository.xml
+[INFO] Installing org/apache/geronimo/daytrader/modules/daytrader-entities/2.2.2-SNAPSHOT/daytrader-entities-2.2.2-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Modules - Core
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/core/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 14 source files to /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/core/target/classes
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/core/src/test/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/core/src/test/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] Surefire report directory: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [bundle:bundle {execution: default-bundle}]
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-core-2.2.2-SNAPSHOT.jar
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/core/target/daytrader-core-2.2.2-SNAPSHOT.jar to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/modules/daytrader-core/2.2.2-SNAPSHOT/daytrader-core-2.2.2-SNAPSHOT.jar
+[INFO] [bundle:install {execution: default-install}]
+[INFO] Parsing file:/home/ashiwan/.m2/repository/repository.xml
+[INFO] Installing org/apache/geronimo/daytrader/modules/daytrader-core/2.2.2-SNAPSHOT/daytrader-core-2.2.2-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Modules - EJB3
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/ejb3/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 8 source files to /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/ejb3/target/classes
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/ejb3/src/test/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/ejb3/src/test/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] Surefire report directory: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/ejb3/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [ejb:ejb {execution: default-ejb}]
+[INFO] Building ejb daytrader-ejb3-2.2.2-SNAPSHOT with ejbVersion 2.1
+[INFO] Building jar: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/ejb3/target/daytrader-ejb3-2.2.2-SNAPSHOT.jar
+[INFO] Building ejb client daytrader-ejb3-2.2.2-SNAPSHOT-client
+[INFO] Building jar: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/ejb3/target/daytrader-ejb3-2.2.2-SNAPSHOT-client.jar
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-ejb3-2.2.2-SNAPSHOT.jar
+[INFO] Checking legal files in: daytrader-ejb3-2.2.2-SNAPSHOT-client.jar
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/ejb3/target/daytrader-ejb3-2.2.2-SNAPSHOT.jar to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/modules/daytrader-ejb3/2.2.2-SNAPSHOT/daytrader-ejb3-2.2.2-SNAPSHOT.jar
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/ejb3/target/daytrader-ejb3-2.2.2-SNAPSHOT-client.jar to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/modules/daytrader-ejb3/2.2.2-SNAPSHOT/daytrader-ejb3-2.2.2-SNAPSHOT-client.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Modules - WS Application Client
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/wsappclient/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/wsappclient/src/main/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 11 source files to /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/wsappclient/target/classes
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/wsappclient/src/test/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/wsappclient/src/test/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] Surefire report directory: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/wsappclient/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [jar:jar {execution: default-jar}]
+[INFO] Building jar: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/wsappclient/target/wsappclient-2.2.2-SNAPSHOT.jar
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: wsappclient-2.2.2-SNAPSHOT.jar
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/wsappclient/target/wsappclient-2.2.2-SNAPSHOT.jar to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/modules/wsappclient/2.2.2-SNAPSHOT/wsappclient-2.2.2-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Modules - SOAP
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/soap/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/soap/src/main/resources
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 3 source files to /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/soap/target/classes
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/soap/src/test/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/soap/src/test/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] Surefire report directory: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/soap/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [jar:jar {execution: default-jar}]
+[INFO] Building jar: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/soap/target/daytrader-soap-2.2.2-SNAPSHOT.jar
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-soap-2.2.2-SNAPSHOT.jar
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/soap/target/daytrader-soap-2.2.2-SNAPSHOT.jar to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/modules/daytrader-soap/2.2.2-SNAPSHOT/daytrader-soap-2.2.2-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Modules - Web
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/web/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 38 source files to /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/web/target/classes
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/web/src/test/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/web/src/test/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] Surefire report directory: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/web/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [jar:jar {execution: default-jar}]
+[INFO] Building jar: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/web/target/daytrader-web-2.2.2-SNAPSHOT.jar
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-web-2.2.2-SNAPSHOT.jar
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/web/target/daytrader-web-2.2.2-SNAPSHOT.jar to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/modules/daytrader-web/2.2.2-SNAPSHOT/daytrader-web-2.2.2-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Modules - Quote Streamer
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/streamer/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/streamer/src/main/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 13 source files to /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/streamer/target/classes
+[WARNING] /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/streamer/src/main/java/org/apache/geronimo/samples/daytrader/client/TradeClient.java:[85,5] [deprecation] show() in java.awt.Window has been deprecated
+
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/streamer/src/test/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/streamer/src/test/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] Surefire report directory: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/streamer/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [jar:jar {execution: default-jar}]
+[INFO] Building jar: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/streamer/target/streamer-2.2.2-SNAPSHOT.jar
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: streamer-2.2.2-SNAPSHOT.jar
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/streamer/target/streamer-2.2.2-SNAPSHOT.jar to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/modules/streamer/2.2.2-SNAPSHOT/streamer-2.2.2-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Modules - JSON Proxy
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/json-proxy/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/json-proxy/src/main/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/json-proxy/src/main/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 11 source files to /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/json-proxy/target/classes
+[WARNING] /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/json-proxy/src/main/java/org/apache/geronimo/samples/daytrader/ajax/SoapProxy.java:[276,54] non-varargs call of varargs method with inexact argument type for last parameter;
+cast to java.lang.Object for a varargs call
+cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/json-proxy/src/test/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/json-proxy/src/test/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] Surefire report directory: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/json-proxy/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [war:war {execution: default-war}]
+[INFO] Packaging webapp
+[INFO] Assembling webapp[json-proxy] in [/home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/json-proxy/target/json-proxy-2.2.2-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp webResources[/home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/json-proxy/target/classes] to[/home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/json-proxy/target/json-proxy-2.2.2-SNAPSHOT]
+[INFO] Copying webapp resources[/home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/json-proxy/src/main/webapp]
+[INFO] Webapp assembled in[203 msecs]
+[INFO] Building war: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/json-proxy/target/json-proxy-2.2.2-SNAPSHOT.war
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: json-proxy-2.2.2-SNAPSHOT.war
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/modules/json-proxy/target/json-proxy-2.2.2-SNAPSHOT.war to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/json-proxy/2.2.2-SNAPSHOT/json-proxy-2.2.2-SNAPSHOT.war
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Assemblies
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [site:attach-descriptor {execution: default-attach-descriptor}]
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/pom.xml to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/assemblies/2.2.2-SNAPSHOT/assemblies-2.2.2-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Assemblies for JavaEE
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [site:attach-descriptor {execution: default-attach-descriptor}]
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/pom.xml to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/assemblies/javaee/2.2.2-SNAPSHOT/javaee-2.2.2-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Assemblies - JavaEE WAR
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-war/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [buildnumber:create {execution: default}]
+[INFO] Storing buildNumber: 2011/11/16 at timestamp: 1321504488427
+[INFO] Executing: /bin/sh -c cd /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-war && svn --non-interactive info
+[INFO] Working directory: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-war
+[INFO] Storing buildScmBranch: branches/2.2/assemblies/javaee/daytrader-war
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-war/target/daytrader-war-2.2.2-SNAPSHOT/docs
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Nothing to compile - all classes are up to date
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-war/src/test/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-war/src/test/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] Surefire report directory: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-war/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [war:war {execution: default-war}]
+[INFO] Packaging webapp
+[INFO] Assembling webapp[daytrader-war] in [/home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-war/target/daytrader-war-2.2.2-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp webResources[/home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-war/target/classes] to[/home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-war/target/daytrader-war-2.2.2-SNAPSHOT]
+[INFO] Copying webapp resources[/home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-war/src/main/webapp]
+[INFO] Webapp assembled in[269 msecs]
+[INFO] Building war: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-war/target/daytrader-war-2.2.2-SNAPSHOT.war
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-war-2.2.2-SNAPSHOT.war
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-war/target/daytrader-war-2.2.2-SNAPSHOT.war to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/assemblies/javaee/daytrader-war/2.2.2-SNAPSHOT/daytrader-war-2.2.2-SNAPSHOT.war
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Assemblies - JavaEE EAR
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-ear/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+Downloading: http://repo1.maven.org/maven2/org/apache/geronimo/daytrader/modules/xtrace/2.0/xtrace-2.0.pom
+[INFO] Unable to find resource 'org.apache.geronimo.daytrader.modules:xtrace:pom:2.0' in repository central (http://repo1.maven.org/maven2)
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [ear:generate-application-xml {execution: default-generate-application-xml}]
+[INFO] Generating application.xml
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-ear/src/main/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [ear:ear {execution: default-ear}]
+[WARNING] JavaModule is deprecated (jar:org.apache.geronimo.daytrader.modules:daytrader-util:2.2.2-SNAPSHOT), please use JarModule instead.
+[INFO] Copying artifact[jar:org.apache.geronimo.daytrader.modules:daytrader-util:2.2.2-SNAPSHOT] to[util.jar]
+[WARNING] JavaModule is deprecated (jar:org.apache.geronimo.daytrader.modules:daytrader-core:2.2.2-SNAPSHOT), please use JarModule instead.
+[INFO] Copying artifact[jar:org.apache.geronimo.daytrader.modules:daytrader-core:2.2.2-SNAPSHOT] to[core.jar]
+[WARNING] JavaModule is deprecated (jar:org.apache.geronimo.daytrader.modules:daytrader-entities:2.2.2-SNAPSHOT), please use JarModule instead.
+[INFO] Copying artifact[jar:org.apache.geronimo.daytrader.modules:daytrader-entities:2.2.2-SNAPSHOT] to[entities.jar]
+[INFO] Copying artifact[ejb:org.apache.geronimo.daytrader.modules:daytrader-ejb3:2.2.2-SNAPSHOT] to[dt-ejb.jar]
+[WARNING] JavaModule is deprecated (jar:org.apache.geronimo.daytrader.modules:daytrader-web:2.2.2-SNAPSHOT), please use JarModule instead.
+[INFO] Copying artifact[jar:org.apache.geronimo.daytrader.modules:daytrader-web:2.2.2-SNAPSHOT] to[web.jar]
+[WARNING] JavaModule is deprecated (jar:org.apache.geronimo.daytrader.modules:daytrader-soap:2.2.2-SNAPSHOT), please use JarModule instead.
+[INFO] Copying artifact[jar:org.apache.geronimo.daytrader.modules:daytrader-soap:2.2.2-SNAPSHOT] to[soap.jar]
+[INFO] Copying artifact[war:org.apache.geronimo.daytrader.assemblies.javaee:daytrader-war:2.2.2-SNAPSHOT] to[web.war]
+[WARNING] JavaModule is deprecated (jar:org.apache.geronimo.daytrader.modules:streamer:2.2.2-SNAPSHOT), please use JarModule instead.
+[INFO] Copying artifact[jar:org.apache.geronimo.daytrader.modules:streamer:2.2.2-SNAPSHOT] to[streamer.jar]
+[WARNING] JavaModule is deprecated (jar:org.apache.geronimo.daytrader.modules:wsappclient:2.2.2-SNAPSHOT), please use JarModule instead.
+[INFO] Copying artifact[jar:org.apache.geronimo.daytrader.modules:wsappclient:2.2.2-SNAPSHOT] to[wsappclient.jar]
+[WARNING] JavaModule is deprecated (jar:org.apache.geronimo.daytrader.modules:xtrace:2.0), please use JarModule instead.
+[INFO] Copying artifact[jar:org.apache.geronimo.daytrader.modules:xtrace:2.0] to[xtrace.jar]
+[INFO] Copying artifact[jar:org.apache.geronimo.specs:geronimo-jaxrpc_1.1_spec:2.0.0] to[geronimo-jaxrpc_1.1_spec-2.0.0.jar]
+[INFO] Copy ear sources to /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-ear/target/daytrader-ear-2.2.2-SNAPSHOT
+[INFO] Copy ear resources to /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-ear/target/daytrader-ear-2.2.2-SNAPSHOT
+[INFO] Could not find manifest file: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-ear/src/main/application/META-INF/MANIFEST.MF - Generating one
+[INFO] Building jar: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-ear/target/daytrader-ear-2.2.2-SNAPSHOT.ear
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-ear-2.2.2-SNAPSHOT.ear
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/daytrader-ear/target/daytrader-ear-2.2.2-SNAPSHOT.ear to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/assemblies/javaee/daytrader-ear/2.2.2-SNAPSHOT/daytrader-ear-2.2.2-SNAPSHOT.ear
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Daytrader plans
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/plans/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 11 resources
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] No sources to compile
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/plans/src/test/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/plans/src/test/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] Surefire report directory: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/plans/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [jar:jar {execution: default-jar}]
+[INFO] Building jar: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/plans/target/plans-2.2.2-SNAPSHOT.jar
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: plans-2.2.2-SNAPSHOT.jar
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/javaee/plans/target/plans-2.2.2-SNAPSHOT.jar to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/assemblies/plans/2.2.2-SNAPSHOT/plans-2.2.2-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Assemblies for Web containers
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [site:attach-descriptor {execution: default-attach-descriptor}]
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/pom.xml to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/assemblies/web/2.2.2-SNAPSHOT/web-2.2.2-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Assemblies - Web + Direct JDBC
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jdbc/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jdbc/src/main/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jdbc/src/main/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Nothing to compile - all classes are up to date
+[INFO] [bundle:manifest {execution: bundle-manifest}]
+[WARNING] Warning in manifest for org.apache.geronimo.daytrader.assemblies.web:daytrader-web-jdbc:war:2.2.2-SNAPSHOT : No sub JAR or directory WEB-INF/classes
+[WARNING] Warning in manifest for org.apache.geronimo.daytrader.assemblies.web:daytrader-web-jdbc:war:2.2.2-SNAPSHOT : No sub JAR or directory WEB-INF/lib/daytrader-core-2.2.2-SNAPSHOT.jar
+[WARNING] Warning in manifest for org.apache.geronimo.daytrader.assemblies.web:daytrader-web-jdbc:war:2.2.2-SNAPSHOT : No sub JAR or directory WEB-INF/lib/daytrader-beans-2.2.2-SNAPSHOT.jar
+[WARNING] Warning in manifest for org.apache.geronimo.daytrader.assemblies.web:daytrader-web-jdbc:war:2.2.2-SNAPSHOT : No sub JAR or directory WEB-INF/lib/daytrader-util-2.2.2-SNAPSHOT.jar
+[WARNING] Warning in manifest for org.apache.geronimo.daytrader.assemblies.web:daytrader-web-jdbc:war:2.2.2-SNAPSHOT : No sub JAR or directory WEB-INF/lib/commons-logging-1.0.4.jar
+[WARNING] Warning in manifest for org.apache.geronimo.daytrader.assemblies.web:daytrader-web-jdbc:war:2.2.2-SNAPSHOT : No sub JAR or directory WEB-INF/lib/daytrader-web-2.2.2-SNAPSHOT.jar
+[WARNING] Warning in manifest for org.apache.geronimo.daytrader.assemblies.web:daytrader-web-jdbc:war:2.2.2-SNAPSHOT : Did not find matching referal for *
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jdbc/src/test/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jdbc/src/test/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] Surefire report directory: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jdbc/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [war:war {execution: default-war}]
+[INFO] Packaging webapp
+[INFO] Assembling webapp[daytrader-web-jdbc] in [/home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jdbc/target/daytrader-web-jdbc-2.2.2-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources[/home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jdbc/src/main/webapp]
+[INFO] Webapp assembled in[316 msecs]
+[INFO] Building war: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jdbc/target/daytrader-web-jdbc-2.2.2-SNAPSHOT.war
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-web-jdbc-2.2.2-SNAPSHOT.war
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jdbc/target/daytrader-web-jdbc-2.2.2-SNAPSHOT.war to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/assemblies/web/daytrader-web-jdbc/2.2.2-SNAPSHOT/daytrader-web-jdbc-2.2.2-SNAPSHOT.war
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Assemblies - Web + Direct JPA
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jpa/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jpa/src/main/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jpa/src/main/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Nothing to compile - all classes are up to date
+[INFO] [bundle:manifest {execution: bundle-manifest}]
+[WARNING] Warning in manifest for org.apache.geronimo.daytrader.assemblies.web:daytrader-web-jpa:war:2.2.2-SNAPSHOT : No sub JAR or directory WEB-INF/classes
+[WARNING] Warning in manifest for org.apache.geronimo.daytrader.assemblies.web:daytrader-web-jpa:war:2.2.2-SNAPSHOT : No sub JAR or directory WEB-INF/lib/daytrader-core-2.2.2-SNAPSHOT.jar
+[WARNING] Warning in manifest for org.apache.geronimo.daytrader.assemblies.web:daytrader-web-jpa:war:2.2.2-SNAPSHOT : No sub JAR or directory WEB-INF/lib/daytrader-entities-2.2.2-SNAPSHOT.jar
+[WARNING] Warning in manifest for org.apache.geronimo.daytrader.assemblies.web:daytrader-web-jpa:war:2.2.2-SNAPSHOT : No sub JAR or directory WEB-INF/lib/daytrader-util-2.2.2-SNAPSHOT.jar
+[WARNING] Warning in manifest for org.apache.geronimo.daytrader.assemblies.web:daytrader-web-jpa:war:2.2.2-SNAPSHOT : No sub JAR or directory WEB-INF/lib/commons-logging-1.0.4.jar
+[WARNING] Warning in manifest for org.apache.geronimo.daytrader.assemblies.web:daytrader-web-jpa:war:2.2.2-SNAPSHOT : No sub JAR or directory WEB-INF/lib/daytrader-web-2.2.2-SNAPSHOT.jar
+[WARNING] Warning in manifest for org.apache.geronimo.daytrader.assemblies.web:daytrader-web-jpa:war:2.2.2-SNAPSHOT : Did not find matching referal for *
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jpa/src/test/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jpa/src/test/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] No sources to compile
+[INFO] [surefire:test {execution: default-test}]
+[INFO] Surefire report directory: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jpa/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] [war:war {execution: default-war}]
+[INFO] Packaging webapp
+[INFO] Assembling webapp[daytrader-web-jpa] in [/home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jpa/target/daytrader-web-jpa-2.2.2-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources[/home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jpa/src/main/webapp]
+[INFO] Webapp assembled in[512 msecs]
+[INFO] Building war: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jpa/target/daytrader-web-jpa-2.2.2-SNAPSHOT.war
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-web-jpa-2.2.2-SNAPSHOT.war
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/assemblies/web/daytrader-web-jpa/target/daytrader-web-jpa-2.2.2-SNAPSHOT.war to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/assemblies/web/daytrader-web-jpa/2.2.2-SNAPSHOT/daytrader-web-jpa-2.2.2-SNAPSHOT.war
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DayTrader :: Plugins
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [site:attach-descriptor {execution: default-attach-descriptor}]
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/pom.xml to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/plugins/2.2.2-SNAPSHOT/plugins-2.2.2-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Daytrader :: Plugins :: Derby DataSource
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-derby-datasource/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-derby-datasource/src/main/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [car:validate-configuration {execution: default-validate-configuration}]
+[INFO] [car:prepare-plan {execution: default-prepare-plan}]
+[INFO] Generated: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-derby-datasource/target/work/plan.xml
+[INFO] [car:verify-no-dependency-change {execution: default-verify-no-dependency-change}]
+[INFO] [car:package {execution: default-package}]
+[INFO] Packaging module configuration: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-derby-datasource/target/work/plan.xml
+[INFO]  GBean references are not using proxies
+[INFO]  ClassLoading behaviour has changed.  The Original Classloading mode is in effect.  If you are experiencing a problem
+you can change the behaviour by specifying -DXorg.apache.geronimo.kernel.config.MPCLSearchOption= property.  Specify 
+="safe" to revert to the original behaviour.  This is a temporary change until we decide whether or not to make it
+permanent for the 2.0 release
+[INFO] Started deployer: org.apache.geronimo.framework/geronimo-gbean-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/j2ee-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/connector-deployer/2.2.1/car
+[INFO]  The Strict Manifest Classpath processing mode is in effect.
+This option can be altered by specifying -DXorg.apache.geronimo.deployment.LenientMFCP=true|false
+Specify ="true" for more lenient processing such as ignoring missing jars and references that are not spec compliant.
+[INFO] [car:prepare-metadata {execution: default-prepare-metadata}]
+[INFO] [car:archive-car {execution: default-archive-car}]
+[INFO] Building jar: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-derby-datasource/target/daytrader-derby-datasource-2.2.2-SNAPSHOT.car
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-derby-datasource-2.2.2-SNAPSHOT.car
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-derby-datasource/target/daytrader-derby-datasource-2.2.2-SNAPSHOT.car to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/plugins/daytrader-derby-datasource/2.2.2-SNAPSHOT/daytrader-derby-datasource-2.2.2-SNAPSHOT.car
+[INFO] [car:update-pluginlist {execution: default-update-pluginlist}]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Daytrader :: Plugins :: Web + Direct JDBC :: Jetty
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jdbc-jetty/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jdbc-jetty/src/main/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jdbc-jetty/src/main/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [car:validate-configuration {execution: default-validate-configuration}]
+[INFO] [car:prepare-plan {execution: default-prepare-plan}]
+[INFO] Generated: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jdbc-jetty/target/work/plan.xml
+[INFO] [car:verify-no-dependency-change {execution: default-verify-no-dependency-change}]
+[INFO] [car:package {execution: default-package}]
+[INFO] Packaging module configuration: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jdbc-jetty/target/work/plan.xml
+[INFO] Started deployer: org.apache.geronimo.framework/geronimo-gbean-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/j2ee-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/jetty7-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/jasper-deployer/2.2.1/car
+[INFO] [car:prepare-metadata {execution: default-prepare-metadata}]
+[INFO] [car:archive-car {execution: default-archive-car}]
+[INFO] Building jar: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jdbc-jetty/target/daytrader-web-jdbc-jetty-2.2.2-SNAPSHOT.car
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-web-jdbc-jetty-2.2.2-SNAPSHOT.car
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jdbc-jetty/target/daytrader-web-jdbc-jetty-2.2.2-SNAPSHOT.car to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/plugins/daytrader-web-jdbc-jetty/2.2.2-SNAPSHOT/daytrader-web-jdbc-jetty-2.2.2-SNAPSHOT.car
+[INFO] [car:update-pluginlist {execution: default-update-pluginlist}]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Daytrader :: Plugins :: Web + Direct JDBC :: Tomcat
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jdbc-tomcat/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jdbc-tomcat/src/main/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jdbc-tomcat/src/main/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [car:validate-configuration {execution: default-validate-configuration}]
+[INFO] [car:prepare-plan {execution: default-prepare-plan}]
+[INFO] Generated: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jdbc-tomcat/target/work/plan.xml
+[INFO] [car:verify-no-dependency-change {execution: default-verify-no-dependency-change}]
+[INFO] [car:package {execution: default-package}]
+[INFO] Packaging module configuration: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jdbc-tomcat/target/work/plan.xml
+[INFO] Started deployer: org.apache.geronimo.framework/geronimo-gbean-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/j2ee-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/tomcat6-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/jasper-deployer/2.2.1/car
+[INFO] [car:prepare-metadata {execution: default-prepare-metadata}]
+[INFO] [car:archive-car {execution: default-archive-car}]
+[INFO] Building jar: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jdbc-tomcat/target/daytrader-web-jdbc-tomcat-2.2.2-SNAPSHOT.car
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-web-jdbc-tomcat-2.2.2-SNAPSHOT.car
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jdbc-tomcat/target/daytrader-web-jdbc-tomcat-2.2.2-SNAPSHOT.car to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/plugins/daytrader-web-jdbc-tomcat/2.2.2-SNAPSHOT/daytrader-web-jdbc-tomcat-2.2.2-SNAPSHOT.car
+[INFO] [car:update-pluginlist {execution: default-update-pluginlist}]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Daytrader :: Plugins :: Web + JPA :: Jetty
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jpa-jetty/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jpa-jetty/src/main/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jpa-jetty/src/main/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [car:validate-configuration {execution: default-validate-configuration}]
+[INFO] [car:prepare-plan {execution: default-prepare-plan}]
+[INFO] Generated: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jpa-jetty/target/work/plan.xml
+[INFO] [car:verify-no-dependency-change {execution: default-verify-no-dependency-change}]
+[INFO] [car:package {execution: default-package}]
+[INFO] Packaging module configuration: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jpa-jetty/target/work/plan.xml
+[INFO] Started deployer: org.apache.geronimo.framework/geronimo-gbean-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/j2ee-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/jetty7-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/jasper-deployer/2.2.1/car
+[INFO] [car:prepare-metadata {execution: default-prepare-metadata}]
+[INFO] [car:archive-car {execution: default-archive-car}]
+[INFO] Building jar: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jpa-jetty/target/daytrader-web-jpa-jetty-2.2.2-SNAPSHOT.car
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-web-jpa-jetty-2.2.2-SNAPSHOT.car
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jpa-jetty/target/daytrader-web-jpa-jetty-2.2.2-SNAPSHOT.car to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/plugins/daytrader-web-jpa-jetty/2.2.2-SNAPSHOT/daytrader-web-jpa-jetty-2.2.2-SNAPSHOT.car
+[INFO] [car:update-pluginlist {execution: default-update-pluginlist}]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Daytrader :: Plugins :: Web + Direct JPA :: Tomcat
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jpa-tomcat/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jpa-tomcat/src/main/resources
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jpa-tomcat/src/main/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [car:validate-configuration {execution: default-validate-configuration}]
+[INFO] [car:prepare-plan {execution: default-prepare-plan}]
+[INFO] Generated: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jpa-tomcat/target/work/plan.xml
+[INFO] [car:verify-no-dependency-change {execution: default-verify-no-dependency-change}]
+[INFO] [car:package {execution: default-package}]
+[INFO] Packaging module configuration: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jpa-tomcat/target/work/plan.xml
+[INFO] Started deployer: org.apache.geronimo.framework/geronimo-gbean-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/j2ee-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/tomcat6-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/jasper-deployer/2.2.1/car
+[INFO] [car:prepare-metadata {execution: default-prepare-metadata}]
+[INFO] [car:archive-car {execution: default-archive-car}]
+[INFO] Building jar: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jpa-tomcat/target/daytrader-web-jpa-tomcat-2.2.2-SNAPSHOT.car
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-web-jpa-tomcat-2.2.2-SNAPSHOT.car
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-web-jpa-tomcat/target/daytrader-web-jpa-tomcat-2.2.2-SNAPSHOT.car to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/plugins/daytrader-web-jpa-tomcat/2.2.2-SNAPSHOT/daytrader-web-jpa-tomcat-2.2.2-SNAPSHOT.car
+[INFO] [car:update-pluginlist {execution: default-update-pluginlist}]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Daytrader :: Plugins :: JavaEE JMS Resource
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-jms/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-jms/src/main/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [car:validate-configuration {execution: default-validate-configuration}]
+[INFO] [car:prepare-plan {execution: default-prepare-plan}]
+[INFO] Generated: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-jms/target/work/plan.xml
+[INFO] [car:verify-no-dependency-change {execution: default-verify-no-dependency-change}]
+[INFO] [car:package {execution: default-package}]
+[INFO] Packaging module configuration: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-jms/target/work/plan.xml
+[INFO] Started deployer: org.apache.geronimo.framework/geronimo-gbean-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/j2ee-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/connector-deployer/2.2.1/car
+[INFO] [car:prepare-metadata {execution: default-prepare-metadata}]
+[INFO] [car:archive-car {execution: default-archive-car}]
+[INFO] Building jar: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-jms/target/daytrader-jms-2.2.2-SNAPSHOT.car
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-jms-2.2.2-SNAPSHOT.car
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-jms/target/daytrader-jms-2.2.2-SNAPSHOT.car to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/plugins/daytrader-jms/2.2.2-SNAPSHOT/daytrader-jms-2.2.2-SNAPSHOT.car
+[INFO] [car:update-pluginlist {execution: default-update-pluginlist}]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Daytrader :: Plugins :: JavaEE Jetty
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-jetty/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[WARNING] org.apache.velocity.runtime.exception.ReferenceException: reference : template = META-INF/DEPENDENCIES.vm [line 40,column 14] : $license.name is not a valid reference.
+[WARNING] org.apache.velocity.runtime.exception.ReferenceException: reference : template = META-INF/DEPENDENCIES.vm [line 40,column 14] : $license.name is not a valid reference.
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-jetty/src/main/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [car:validate-configuration {execution: default-validate-configuration}]
+[INFO] [car:prepare-plan {execution: default-prepare-plan}]
+[INFO] Generated: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-jetty/target/work/plan.xml
+[INFO] [car:verify-no-dependency-change {execution: default-verify-no-dependency-change}]
+[INFO] [car:package {execution: default-package}]
+[INFO] Packaging module configuration: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-jetty/target/work/plan.xml
+[INFO] Started deployer: org.apache.geronimo.framework/geronimo-gbean-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/j2ee-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/jetty7-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/jasper-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/openejb-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/persistence-jpa10-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/axis-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/client-deployer/2.2.1/car
+FOO moduleName = /tmp/geronimo-deploymentUtil8938253556072371537.jar
+23:36:17,337 INFO  [config] Configuring Service(id=DefaultStatelessContainer, type=Container, provider-id=Default Stateless Container)
+23:36:17,341 INFO  [config] Configuring Service(id=DefaultStatefulContainer, type=Container, provider-id=Default Stateful Container)
+23:36:17,342 INFO  [config] Configuring Service(id=DefaultSingletonContainer, type=Container, provider-id=Default Singleton Container)
+23:36:17,344 INFO  [config] Configuring Service(id=DefaultBMPContainer, type=Container, provider-id=Default BMP Container)
+23:36:17,345 INFO  [config] Configuring Service(id=DefaultCMPContainer, type=Container, provider-id=Default CMP Container)
+23:36:17,414 INFO  [config] Configuring Service(id=Default MDB Container, type=Container, provider-id=Default MDB Container)
+23:36:17,473 INFO  [config] Configuring enterprise application: org.apache.geronimo.daytrader.plugins/daytrader-jetty/2.2.2-SNAPSHOT/car
+23:36:19,141 INFO  [OpenEJB] Auto-deploying ejb DirectSLSBBean: EjbDeployment(deployment-id=dt-ejb.jar/DirectSLSBBean)
+23:36:19,141 INFO  [OpenEJB] Auto-deploying ejb TradeSLSBBean: EjbDeployment(deployment-id=dt-ejb.jar/TradeSLSBBean)
+23:36:19,141 INFO  [OpenEJB] Auto-deploying ejb DTBroker3MDB: EjbDeployment(deployment-id=dt-ejb.jar/DTBroker3MDB)
+23:36:19,141 INFO  [OpenEJB] Auto-deploying ejb DTStreamer3MDB: EjbDeployment(deployment-id=dt-ejb.jar/DTStreamer3MDB)
+23:36:19,242 INFO  [config] Enterprise application "org.apache.geronimo.daytrader.plugins/daytrader-jetty/2.2.2-SNAPSHOT/car" loaded.
+Retrieving document at 'WEB-INF/wsdl/TradeServices.wsdl'.
+[WARN]  No soap array info for schematype: T=QuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=HoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=OrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=QuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=HoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=OrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfOrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfQuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfHoldingDataBean@http://daytrader.samples.geronimo.apache.org
+Retrieving document at 'WEB-INF/wsdl/TradeServices.wsdl'.
+[WARN]  No soap array info for schematype: T=QuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=HoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=OrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=QuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=HoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=OrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfOrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfQuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfHoldingDataBean@http://daytrader.samples.geronimo.apache.org
+Retrieving document at 'WEB-INF/wsdl/TradeServices.wsdl'.
+[WARN]  No soap array info for schematype: T=QuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=HoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=OrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=QuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=HoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=OrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfOrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfQuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfHoldingDataBean@http://daytrader.samples.geronimo.apache.org
+Retrieving document at 'META-INF/wsdl/TradeServices.wsdl'.
+[WARN]  No soap array info for schematype: T=QuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=HoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=OrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=QuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=HoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=OrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfOrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfQuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfHoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[INFO] [car:prepare-metadata {execution: default-prepare-metadata}]
+[INFO] [car:archive-car {execution: default-archive-car}]
+[INFO] Building jar: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-jetty/target/daytrader-jetty-2.2.2-SNAPSHOT.car
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-jetty-2.2.2-SNAPSHOT.car
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-jetty/target/daytrader-jetty-2.2.2-SNAPSHOT.car to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/plugins/daytrader-jetty/2.2.2-SNAPSHOT/daytrader-jetty-2.2.2-SNAPSHOT.car
+[INFO] [car:update-pluginlist {execution: default-update-pluginlist}]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Daytrader :: Plugins :: JavaEE Tomcat
+[INFO]    task-segment: [clean, install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting file set: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-tomcat/target (included: [**], excluded: [])
+[INFO] [genesis:validate-configuration {execution: default}]
+[INFO] [enforcer:enforce {execution: default}]
+[INFO] [remote-resources:process {execution: default}]
+[WARNING] org.apache.velocity.runtime.exception.ReferenceException: reference : template = META-INF/DEPENDENCIES.vm [line 40,column 14] : $license.name is not a valid reference.
+[WARNING] org.apache.velocity.runtime.exception.ReferenceException: reference : template = META-INF/DEPENDENCIES.vm [line 40,column 14] : $license.name is not a valid reference.
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] skip non existing resourceDirectory /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-tomcat/src/main/filtered-resources
+[INFO] Copying 3 resources
+[INFO] [car:validate-configuration {execution: default-validate-configuration}]
+[INFO] [car:prepare-plan {execution: default-prepare-plan}]
+[INFO] Generated: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-tomcat/target/work/plan.xml
+[INFO] [car:verify-no-dependency-change {execution: default-verify-no-dependency-change}]
+[INFO] [car:package {execution: default-package}]
+[INFO] Packaging module configuration: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-tomcat/target/work/plan.xml
+[INFO] Started deployer: org.apache.geronimo.framework/geronimo-gbean-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/j2ee-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/tomcat6-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/jasper-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/openejb-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/persistence-jpa10-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/axis-deployer/2.2.1/car
+[INFO] Started deployer: org.apache.geronimo.configs/client-deployer/2.2.1/car
+FOO moduleName = /tmp/geronimo-deploymentUtil1255298496066782534.jar
+23:36:52,337 INFO  [config] Configuring Service(id=DefaultStatelessContainer, type=Container, provider-id=Default Stateless Container)
+23:36:52,342 INFO  [config] Configuring Service(id=DefaultStatefulContainer, type=Container, provider-id=Default Stateful Container)
+23:36:52,343 INFO  [config] Configuring Service(id=DefaultSingletonContainer, type=Container, provider-id=Default Singleton Container)
+23:36:52,343 INFO  [config] Configuring Service(id=DefaultBMPContainer, type=Container, provider-id=Default BMP Container)
+23:36:52,344 INFO  [config] Configuring Service(id=DefaultCMPContainer, type=Container, provider-id=Default CMP Container)
+23:36:52,590 INFO  [config] Configuring Service(id=Default MDB Container, type=Container, provider-id=Default MDB Container)
+23:36:52,646 INFO  [config] Configuring enterprise application: org.apache.geronimo.daytrader.plugins/daytrader-tomcat/2.2.2-SNAPSHOT/car
+23:36:53,397 INFO  [OpenEJB] Auto-deploying ejb DirectSLSBBean: EjbDeployment(deployment-id=dt-ejb.jar/DirectSLSBBean)
+23:36:53,398 INFO  [OpenEJB] Auto-deploying ejb TradeSLSBBean: EjbDeployment(deployment-id=dt-ejb.jar/TradeSLSBBean)
+23:36:53,398 INFO  [OpenEJB] Auto-deploying ejb DTBroker3MDB: EjbDeployment(deployment-id=dt-ejb.jar/DTBroker3MDB)
+23:36:53,398 INFO  [OpenEJB] Auto-deploying ejb DTStreamer3MDB: EjbDeployment(deployment-id=dt-ejb.jar/DTStreamer3MDB)
+23:36:53,478 INFO  [config] Enterprise application "org.apache.geronimo.daytrader.plugins/daytrader-tomcat/2.2.2-SNAPSHOT/car" loaded.
+Retrieving document at 'WEB-INF/wsdl/TradeServices.wsdl'.
+[WARN]  No soap array info for schematype: T=QuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=HoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=OrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=QuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=HoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=OrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfOrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfQuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfHoldingDataBean@http://daytrader.samples.geronimo.apache.org
+Retrieving document at 'WEB-INF/wsdl/TradeServices.wsdl'.
+[WARN]  No soap array info for schematype: T=QuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=HoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=OrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=QuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=HoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=OrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfOrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfQuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfHoldingDataBean@http://daytrader.samples.geronimo.apache.org
+Retrieving document at 'WEB-INF/wsdl/TradeServices.wsdl'.
+[WARN]  No soap array info for schematype: T=QuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=HoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=OrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=QuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=HoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=OrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfOrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfQuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfHoldingDataBean@http://daytrader.samples.geronimo.apache.org
+Retrieving document at 'META-INF/wsdl/TradeServices.wsdl'.
+[WARN]  No soap array info for schematype: T=QuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=HoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=OrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=QuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=HoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=OrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfOrderDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfQuoteDataBean@http://daytrader.samples.geronimo.apache.org
+[WARN]  No soap array info for schematype: T=ArrayOfHoldingDataBean@http://daytrader.samples.geronimo.apache.org
+[INFO] [car:prepare-metadata {execution: default-prepare-metadata}]
+[INFO] [car:archive-car {execution: default-archive-car}]
+[INFO] Building jar: /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-tomcat/target/daytrader-tomcat-2.2.2-SNAPSHOT.car
+[INFO] [ianal:verify-legal-files {execution: default}]
+[INFO] Checking legal files in: daytrader-tomcat-2.2.2-SNAPSHOT.car
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/ashiwan/Desktop/cloud/Xtrace_DayTrader_no_aspect_half/2.2/plugins/daytrader-tomcat/target/daytrader-tomcat-2.2.2-SNAPSHOT.car to /home/ashiwan/.m2/repository/org/apache/geronimo/daytrader/plugins/daytrader-tomcat/2.2.2-SNAPSHOT/daytrader-tomcat-2.2.2-SNAPSHOT.car
+[INFO] [car:update-pluginlist {execution: default-update-pluginlist}]
+[INFO] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] ------------------------------------------------------------------------
+[INFO] DayTrader :: Performance Benchmark Sample ............. SUCCESS [6.406s]
+[INFO] DayTrader :: Modules .................................. SUCCESS [0.070s]
+[INFO] DayTrader :: Modules - Util ........................... SUCCESS [4.025s]
+[INFO] DayTrader :: Modules - Beans .......................... SUCCESS [1.464s]
+[INFO] DayTrader :: Modules - Entities ....................... SUCCESS [9.181s]
+[INFO] DayTrader :: Modules - Core ........................... SUCCESS [3.677s]
+[INFO] DayTrader :: Modules - EJB3 ........................... SUCCESS [4.094s]
+[INFO] DayTrader :: Modules - WS Application Client .......... SUCCESS [4.717s]
+[INFO] DayTrader :: Modules - SOAP ........................... SUCCESS [1.664s]
+[INFO] DayTrader :: Modules - Web ............................ SUCCESS [2.870s]
+[INFO] DayTrader :: Modules - Quote Streamer ................. SUCCESS [3.064s]
+[INFO] DayTrader :: Modules - JSON Proxy ..................... SUCCESS [5.566s]
+[INFO] DayTrader :: Assemblies ............................... SUCCESS [0.152s]
+[INFO] DayTrader :: Assemblies for JavaEE .................... SUCCESS [0.156s]
+[INFO] DayTrader :: Assemblies - JavaEE WAR .................. SUCCESS [5.651s]
+[INFO] DayTrader :: Assemblies - JavaEE EAR .................. SUCCESS [2.051s]
+[INFO] Daytrader plans ....................................... SUCCESS [1.267s]
+[INFO] DayTrader :: Assemblies for Web containers ............ SUCCESS [0.171s]
+[INFO] DayTrader :: Assemblies - Web + Direct JDBC ........... SUCCESS [1.554s]
+[INFO] DayTrader :: Assemblies - Web + Direct JPA ............ SUCCESS [2.185s]
+[INFO] DayTrader :: Plugins .................................. SUCCESS [0.148s]
+[INFO] Daytrader :: Plugins :: Derby DataSource .............. SUCCESS [15.768s]
+[INFO] Daytrader :: Plugins :: Web + Direct JDBC :: Jetty .... SUCCESS [9.910s]
+[INFO] Daytrader :: Plugins :: Web + Direct JDBC :: Tomcat ... SUCCESS [4.126s]
+[INFO] Daytrader :: Plugins :: Web + JPA :: Jetty ............ SUCCESS [5.681s]
+[INFO] Daytrader :: Plugins :: Web + Direct JPA :: Tomcat .... SUCCESS [3.512s]
+[INFO] Daytrader :: Plugins :: JavaEE JMS Resource ........... SUCCESS [9.947s]
+[INFO] Daytrader :: Plugins :: JavaEE Jetty .................. SUCCESS [48.792s]
+[INFO] Daytrader :: Plugins :: JavaEE Tomcat ................. SUCCESS [27.451s]
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESSFUL
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3 minutes 13 seconds
+[INFO] Finished at: Wed Nov 16 23:37:03 EST 2011
+[INFO] Final Memory: 158M/495M
+[INFO] ------------------------------------------------------------------------

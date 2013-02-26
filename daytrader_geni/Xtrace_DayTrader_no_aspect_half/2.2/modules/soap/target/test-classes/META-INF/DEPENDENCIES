@@ -1,0 +1,25 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+DayTrader :: Modules - SOAP
+
+
+From: 'Apache Software Foundation' (http://www.apache.org)
+  - JAXRPC 1.1 (http://geronimo.apache.org/specs/geronimo-jaxrpc_1.1_spec) org.apache.geronimo.specs:geronimo-jaxrpc_1.1_spec:jar:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Apache Software Foundation' (http://www.apache.org/)
+  - DayTrader :: Modules - Core (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/daytrader-parent/modules/daytrader-core) org.apache.geronimo.daytrader.modules:daytrader-core:bundle:2.2.2-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - DayTrader :: Modules - Entities (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/daytrader-parent/modules/daytrader-entities) org.apache.geronimo.daytrader.modules:daytrader-entities:bundle:2.2.2-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - DayTrader :: Modules - Util (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/daytrader-parent/modules/daytrader-util) org.apache.geronimo.daytrader.modules:daytrader-util:bundle:2.2.2-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - DayTrader :: Modules - WS Application Client (http://geronimo.apache.org/genesis-default-flava/genesis-java5-flava/daytrader-parent/modules/wsappclient) org.apache.geronimo.daytrader.modules:wsappclient:jar:2.2.2-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

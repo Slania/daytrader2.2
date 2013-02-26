@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: 1.6.0_27 (Sun Microsystems Inc.)
+Built-By: ashiwan
+Build-Jdk: 1.6.0_27
+Embed-Directory: WEB-INF/lib
+Implementation-Title: DayTrader :: Assemblies - Web + Direct JPA
+Implementation-Version: 2.2.2-SNAPSHOT
+Bundle-ClassPath: .,WEB-INF/classes,WEB-INF/lib/daytrader-core-2.2.2-S
+ NAPSHOT.jar,WEB-INF/lib/daytrader-entities-2.2.2-SNAPSHOT.jar,WEB-INF
+ /lib/daytrader-util-2.2.2-SNAPSHOT.jar,WEB-INF/lib/commons-logging-1.
+ 0.4.jar,WEB-INF/lib/daytrader-web-2.2.2-SNAPSHOT.jar
+Tool: Bnd-0.0.311
+Bundle-Name: DayTrader :: Assemblies - Web + Direct JPA
+Web-ContextPath: /daytrader
+Web-JSPExtractLocation: /
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 2.2.2.SNAPSHOT
+Bnd-LastModified: 1321504497293
+Embed-Transitive: true
+Bundle-ManifestVersion: 2
+Bundle-Description: A version of Daytrader for basic Web constainers
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Embed-Dependency: *;scope=compile|runtime
+Bundle-SymbolicName: daytrader-web-jpa
+Bundle-DocURL: http://geronimo.apache.org/genesis-default-flava/genesi
+ s-java5-flava/daytrader-parent/assemblies/web/daytrader-web-jpa
+

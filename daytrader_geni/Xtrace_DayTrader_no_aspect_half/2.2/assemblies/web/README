@@ -1,0 +1,25 @@
+(C) Copyright 2006-2009 The Apache Software Foundation.
+----------------------------------------------------------------------
+
+There are multiple web application (WAR) assemblies to choose from:
+
+daytrader-web-jdbc - Only requires a web container (like Tomcat v6) and is
+	configured to use the JDBC Direct mode of Daytrader (no JMS queued
+	orders and no dependency on a transaction manager.)
+        Note:  The following prerequisites must be supplied:
+	1)  To use the default Derby Embedded DB, you need to copy
+	    derby.jar (10.2.2.0 or 10.4.2.0) to the lib directory.
+
+daytrader-web-jpa - Only requires a web container (like Tomcat v6) and is
+	configured to use the JPA Direct mode of Daytrader (no JMS queued
+	orders and no dependency on a transaction manager.)
+        Note:  The following prerequisites must be supplied:
+	1)  To use the default Derby Embedded DB, you need to copy
+	    derby.jar (10.2.2.0 or 10.4.2.0) to the lib directory.
+	2)  To use the default Apache OpenJPA provider, you need to copy
+	    openjpa.jar and its dependencies (or just openjpa-all.jar)
+	    to the lib directory.
+
+Deployment plans for use with Apache Geronimo 2.1/2.2 are located in the plans
+subdirectory.
+

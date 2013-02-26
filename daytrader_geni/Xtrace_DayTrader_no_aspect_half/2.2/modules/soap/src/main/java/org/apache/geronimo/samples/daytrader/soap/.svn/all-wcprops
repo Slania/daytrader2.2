@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/soap/src/main/java/org/apache/geronimo/samples/daytrader/soap
+END
+Convert.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/soap/src/main/java/org/apache/geronimo/samples/daytrader/soap/Convert.java
+END
+TradeWebSoapProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/soap/src/main/java/org/apache/geronimo/samples/daytrader/soap/TradeWebSoapProxy.java
+END
+TradeWSAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/1032571/geronimo/daytrader/branches/2.2/modules/soap/src/main/java/org/apache/geronimo/samples/daytrader/soap/TradeWSAction.java
+END

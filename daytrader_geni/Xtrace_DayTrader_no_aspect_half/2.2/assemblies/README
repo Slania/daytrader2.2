@@ -1,0 +1,14 @@
+(C) Copyright 2006-2009 The Apache Software Foundation.
+----------------------------------------------------------------------
+
+The assemblies have been split into two categories:
+
+javaee - Packaged EAR that can only be deployed to a JavaEE 5 or later
+        application server, like Apache Geronimo or JBoss.
+
+web - Packaged WARs of daytrader which can be deployed on web-only containers, 
+        like Tomcat 6, Jetty and Geronimo Little-G.
+
+Plans appropriate for each environment have been included in a subdirectory
+under each set of assemblies above.
+
